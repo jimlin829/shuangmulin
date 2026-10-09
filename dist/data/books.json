@@ -1,0 +1,264 @@
+[
+  {
+    "id": "season1",
+    "title": "可安，向晨",
+    "season": "第一季",
+    "genre": "都市 · 青春 · 心动",
+    "status": "已完结",
+    "subtitle": "从游戏搭子开始，把喜欢慢慢说出口。",
+    "description": "一条寻找游戏搭子的帖子，让林向晨的日常里多了一个人。从屏幕那端的陪伴，到想要越过的距离，一段关系在一次次回应中，慢慢有了名字。",
+    "pdf": "books/season1.pdf",
+    "volumes": [
+      "从游戏搭子开始",
+      "不该越界的心动",
+      "想要说出口",
+      "隔着城市拥抱你"
+    ],
+    "chapters": [
+      {
+        "number": 1,
+        "title": "新朋友？",
+        "volume": 1
+      },
+      {
+        "number": 2,
+        "title": "她像一颗乱跳的小星星",
+        "volume": 1
+      },
+      {
+        "number": 3,
+        "title": "隔着屏幕的陪伴",
+        "volume": 1
+      },
+      {
+        "number": 4,
+        "title": "心有其人",
+        "volume": 1
+      },
+      {
+        "number": 5,
+        "title": "奶茶店门口",
+        "volume": 1
+      },
+      {
+        "number": 6,
+        "title": "小吃、街道和火锅",
+        "volume": 1
+      },
+      {
+        "number": 7,
+        "title": "飞往另一个答案",
+        "volume": 2
+      },
+      {
+        "number": 8,
+        "title": "答案",
+        "volume": 2
+      },
+      {
+        "number": 9,
+        "title": "回来以后",
+        "volume": 2
+      },
+      {
+        "number": 10,
+        "title": "她说自己不好",
+        "volume": 2
+      },
+      {
+        "number": 11,
+        "title": "许柚",
+        "volume": 2
+      },
+      {
+        "number": 12,
+        "title": "谁都没有说破",
+        "volume": 2
+      },
+      {
+        "number": 13,
+        "title": "她又来了临川",
+        "volume": 3
+      },
+      {
+        "number": 14,
+        "title": "差一点牵手",
+        "volume": 3
+      },
+      {
+        "number": 15,
+        "title": "酒店里的消息",
+        "volume": 3
+      },
+      {
+        "number": 16,
+        "title": "把手交给明天",
+        "volume": 3
+      },
+      {
+        "number": 17,
+        "title": "第一天的我们",
+        "volume": 3
+      },
+      {
+        "number": 18,
+        "title": "把临川留到明天",
+        "volume": 3
+      },
+      {
+        "number": 19,
+        "title": "异地第一天",
+        "volume": 4
+      },
+      {
+        "number": 20,
+        "title": "恐怖游戏不能一个人玩",
+        "volume": 4
+      },
+      {
+        "number": 21,
+        "title": "她开始变亮",
+        "volume": 4
+      },
+      {
+        "number": 22,
+        "title": "日历上多了一个人",
+        "volume": 4
+      },
+      {
+        "number": 23,
+        "title": "南城日常",
+        "volume": 4
+      },
+      {
+        "number": 24,
+        "title": "下次见",
+        "volume": 4
+      }
+    ],
+    "wordCount": 107661,
+    "pdfSize": 11.5,
+    "cover": "assets/season1.jpg"
+  },
+  {
+    "id": "season2",
+    "title": "可安，向晨",
+    "season": "第二季",
+    "genre": "都市 · 恋爱 · 成长",
+    "status": "连载中",
+    "subtitle": "从一句「下次见」开始，把往后的日子继续写下去。",
+    "description": "热恋之后，他们回到各自的日常。实习、工作、错开的时间，还有迟迟未读的消息。喜欢让两个人走到一起，而理解与沟通，让他们学着一起走下去。",
+    "pdf": "books/season2.pdf",
+    "volumes": [
+      "未读的夜晚"
+    ],
+    "chapters": [
+      {
+        "number": 25,
+        "title": "回到临川以后",
+        "volume": 5
+      },
+      {
+        "number": 26,
+        "title": "第一个告诉你",
+        "volume": 5
+      },
+      {
+        "number": 27,
+        "title": "上班以后的生活",
+        "volume": 5
+      },
+      {
+        "number": 28,
+        "title": "延迟回复",
+        "volume": 5
+      }
+    ],
+    "wordCount": 24308,
+    "pdfSize": 5.9,
+    "cover": "assets/season2.jpg"
+  },
+  {
+    "id": "yueyin",
+    "title": "月隐之证",
+    "season": "",
+    "genre": "悬疑 · 推理",
+    "status": "已完结",
+    "subtitle": "月光之下，每个人都有未曾说出口的秘密。",
+    "description": "林歆月踏入月亮山庄，也踏入了一场与往事紧密相连的迷局。当死亡接连发生，信任开始瓦解，她必须穿过谎言与伪装，寻找被隐藏的真相。",
+    "pdf": "books/yueyin.pdf",
+    "volumes": [
+      "月隐之证"
+    ],
+    "chapters": [
+      {
+        "number": 1,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 2,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 3,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 4,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 5,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 6,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 7,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 8,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 9,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 10,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 11,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 12,
+        "title": "",
+        "volume": 1
+      },
+      {
+        "number": 13,
+        "title": "",
+        "volume": 1
+      }
+    ],
+    "wordCount": 68807,
+    "pdfSize": 2.0,
+    "cover": "assets/yueyin.jpg"
+  }
+]
