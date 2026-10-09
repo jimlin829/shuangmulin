@@ -10,3 +10,27 @@
 @media(max-width:700px){html{scroll-padding-top:25px}.wrap{width:calc(100% - 40px)}.site-header{height:76px}.brand img{width:119px}.brand span{display:none}.nav{gap:24px;font-size:13px}.hero{grid-template-columns:1fr;padding:40px 0 45px;gap:38px;min-height:auto}.hero h1{font-size:43px;line-height:1.45;margin-bottom:18px}.hero .eyebrow{margin-bottom:20px;font-size:12px}.hero-copy>p:not(.eyebrow){font-size:15px;max-width:320px;margin-bottom:24px}.actions{gap:17px}.button{padding:11px 17px;gap:17px}.hero-art{min-height:390px;width:100%;max-width:400px;margin:auto;border-radius:45% 45% 3px 3px}.hero-book{width:211px}.hero-back{width:167px;top:43px;left:36px}.hero-caption{font-size:11px!important}.library{padding:40px 0 45px}.section-title{font-size:29px}.section-intro{font-size:14px}.bookshelf{grid-template-columns:1fr;gap:36px;margin-top:30px}.shelf-book,.shelf-book:nth-child(2),.shelf-book:nth-child(3){padding-top:0;display:grid;grid-template-columns:126px 1fr;gap:22px;align-items:center}.cover-stage,.shelf-book:nth-child(2) .cover-stage{height:190px;padding:10px;margin:0}.shelf-book h3{font-size:23px;margin-bottom:8px}.shelf-book h3 small{font-size:12px}.shelf-book p{font-size:12px;line-height:1.8;margin-bottom:12px}.book-meta{font-size:11px;gap:8px;flex-wrap:wrap;margin-bottom:6px}.shelf-links{gap:14px;font-size:12px}.about-section{padding:36px 0 48px}.about{grid-template-columns:1fr;gap:10px}.author-art{width:240px;height:160px;margin:auto}.about p{font-size:14px}.about .signature{font-size:21px}.site-footer{font-size:11px;gap:15px;flex-wrap:wrap;padding:24px 0}.breadcrumb{padding-top:20px}.book-detail{grid-template-columns:1fr;gap:28px;padding:30px 0 40px}.detail-cover{width:220px;margin:auto;padding:24px 32px}.book-detail h1{font-size:35px;margin:6px 0}.book-description{font-size:15px;margin:15px 0 22px}.book-stats{gap:18px;font-size:12px}.contents{padding:35px 0 50px}.chapter-list{grid-template-columns:1fr;gap:0}.chapter-list a{font-size:14px;padding:11px 6px}.volume summary{font-size:18px}.reader-header{padding:0 14px;height:62px;gap:8px}.reader-brand{font-size:17px}.reader-title-link{display:none}.reader-tools{gap:0}.tool-button{font-size:13px;padding:7px 9px}.reader-toolbar-label{display:none}.reader-main{padding:38px 22px 30px}.reader-heading{font-size:27px;margin-top:12px}.reader-byline{margin-bottom:35px}.reader-chapter-meta{font-size:12px}.prose{line-height:2}.chapter-navigation{gap:9px}.chapter-navigation .button{padding:10px 14px;font-size:13px}dialog{padding:22px}.reader-footer{font-size:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 .brand-logo{position:relative;width:146px;height:62px;overflow:hidden;flex-shrink:0}.brand-logo img{position:absolute;top:50%;transform:translateY(-50%)}@media(max-width:700px){.brand-logo{width:119px;height:54px}}
+
+/* Keep the featured work named before its reading actions. */
+.hero h1 .hero-season{display:block;font:400 24px/1.8 var(--serif);letter-spacing:.18em;margin-top:8px;color:var(--accent)}
+.shelf-book h3 .book-season{font:400 15px/1.8 var(--sans);white-space:nowrap;color:var(--muted);letter-spacing:0}
+
+/* Equal outer columns center the book independently of the toolbar width. */
+.reader-header{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.reader-brand{display:block;position:relative;justify-self:start;width:96px;height:44px;overflow:hidden}
+.reader-brand img{width:100%;height:auto;position:absolute;top:50%;transform:translateY(-50%)}
+.reader-title-link{display:block;justify-self:center;width:100%;text-align:center;min-width:0}
+.reader-tools{justify-self:end}
+.reader-page[data-theme=night] .reader-brand img{filter:brightness(0) invert(.88)}
+@media(max-width:900px){
+  .reader-header{grid-template-columns:minmax(0,1fr) auto;height:96px;row-gap:0;padding:5px 20px 8px}
+  .reader-brand{grid-column:1;grid-row:1;width:82px;height:39px}
+  .reader-tools{grid-column:2;grid-row:1}
+  .reader-title-link{grid-column:1/-1;grid-row:2;font-size:12px;line-height:1.6}
+}
+@media(max-width:700px){
+  .hero h1 .hero-season{font-size:22px;margin-top:7px}
+  .shelf-book h3 .book-season{font-size:12px}
+  .reader-header{padding-inline:14px;height:90px}
+  .reader-brand{width:76px;height:36px}
+}
